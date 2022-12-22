@@ -1,0 +1,69 @@
+img {
+  max-width: 100%;
+}
+h1 {
+  margin: 35px;
+}
+body {
+  background: #f8f9fa;
+}
+body header .logo {
+  text-align: center;
+}
+body header .menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+body header .menu ul li {
+  padding: 5px;
+}
+body h1 {
+  text-align: center;
+}
+body form {
+  display: flex;
+  justify-content: center;
+}
+body form .form_add {
+  max-width: 350px;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+body form .form_add .btn {
+  border: 1px solid;
+}
+body .portfolio .block {
+  margin-bottom: 20px;
+}
+body .portfolio .block .item {
+  background: white;
+  height: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+body .portfolio .block .item .image {
+  min-height: 350px;
+  width: 100%;
+  cursor: pointer;
+}
+body .portfolio .block .item:hover {
+  border: 1px solid black;
+}
+body footer {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 47%, #ffffff 100%);
+}
